@@ -2,11 +2,11 @@ C-- Compiler
 
 Linux GCC
 
->> Lexical Analysis: lexical.l
->> Parsing: syntax.y
->> Semantic Analysis: semantic folder (hash.c && semantic.c)
->> Generate Intercode: intercode folder (intercode.c && show.c)
->> Generate MIPS Codes: mipscode folder (functionField.c && mipscode.c)
+>- Lexical Analysis: lexical.l
+>- Parsing: syntax.y
+>- Semantic Analysis: semantic folder (hash.c && semantic.c)
+>- Generate Intercode: intercode folder (intercode.c && show.c)
+>- Generate MIPS Codes: mipscode folder (functionField.c && mipscode.c)
 
 running order: ./parser input_filename.c output_filename.asm
 		
